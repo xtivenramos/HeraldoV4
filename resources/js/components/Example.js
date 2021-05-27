@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Example() {
+export default function Example() {
     return (
         <div className="container">
             <div className="row justify-content-center">
@@ -11,8 +11,7 @@ function Example() {
 
                         <div className="card-body">I'm an example component!</div>
                         <div className="card-body">
-
-                            <button type="button" onClick={() => {console.log("prueba")}} className="btn"></button>
+                            <button type="button" onClick={() => {console.log("prueba")}} className="btn">Oprimir</button>
                         </div>
                     </div>
                 </div>
@@ -21,7 +20,6 @@ function Example() {
     );
 }
 
-export default Example;
 
 if (document.getElementById('example')) {
     ReactDOM.render(<Example />, document.getElementById('example'));

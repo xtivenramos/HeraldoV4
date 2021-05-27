@@ -24,7 +24,7 @@
     </head>
     <body class="antialiased">
 
-        <div id="example">
+        <div id="root">
             
         </div>
         <script type="text/javascript" src="{{ mix('js/app.js') }}" defer></script>
