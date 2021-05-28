@@ -13,5 +13,8 @@ require('./bootstrap');
  */
 
 // require('./components/Example');
-require('./components/Registro/Index');
-require('./components/Clock');
+require('./components/Registro/Registro');
+require('./components/Template/Header');
+require('./components/Login/Login');
+require('./components/Admin/Index');
+require('./components/Home');

@@ -24,7 +24,7 @@
     </head>
     <body class="antialiased">
 
-        <div id="root">
+        <div id="registro">
             
         </div>
         <script type="text/javascript" src="{{ mix('js/app.js') }}" defer></script>
