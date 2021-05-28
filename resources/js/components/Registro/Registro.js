@@ -10,13 +10,13 @@ export default class Registro extends Component {
 
 		this.state = {
 			registro: {
-				nombre: 'asdasd',
+				nombre: '',
 				usuario: '',
-				correo: 'eramos8@cuc.edu.co',
-				telefono: '123123',
-				direccion: 'direccion #433',
-				contraseña: '123',
-				confirm_contraseña: '123',
+				correo: '',
+				telefono: '',
+				direccion: '',
+				contraseña: '',
+				confirm_contraseña: '',
 			},
             error: '',
 		};

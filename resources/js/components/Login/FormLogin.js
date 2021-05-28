@@ -36,11 +36,13 @@ const FormLogin = ({datos, onChange, onSubmit}) => (
             </div>
         </div>
 
-        <div className="form-group row mb-0">
-            <div className="col-md-8 offset-md-4">
-                <button type="submit" className="btn btn-primary">
-                    Entrar
-                </button>
+        <div className="col">
+            <div className="form-group row mb-0">
+                <div className="col-md-8 offset-md-4">
+                    <button type="submit" className="btn btn-primary">
+                        Entrar
+                    </button>
+                </div>
             </div>
         </div>
     </form>

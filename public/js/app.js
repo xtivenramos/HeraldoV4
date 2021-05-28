@@ -2184,13 +2184,16 @@ var FormLogin = function FormLogin(_ref) {
         })
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      className: "form-group row mb-0",
+      className: "col",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-        className: "col-md-8 offset-md-4",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
-          type: "submit",
-          className: "btn btn-primary",
-          children: "Entrar"
+        className: "form-group row mb-0",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+          className: "col-md-8 offset-md-4",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+            type: "submit",
+            className: "btn btn-primary",
+            children: "Entrar"
+          })
         })
       })
     })]
@@ -2654,13 +2657,13 @@ var Registro = /*#__PURE__*/function (_Component) {
     _this = _super.call(this, props);
     _this.state = {
       registro: {
-        nombre: 'asdasd',
+        nombre: '',
         usuario: '',
-        correo: 'eramos8@cuc.edu.co',
-        telefono: '123123',
-        direccion: 'direccion #433',
-        contraseña: '123',
-        confirm_contraseña: '123'
+        correo: '',
+        telefono: '',
+        direccion: '',
+        contraseña: '',
+        confirm_contraseña: ''
       },
       error: ''
     };
@@ -3097,7 +3100,7 @@ var UnLogged = function UnLogged() {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
         className: "nav-link",
         href: "/login",
-        children: "Logeate!"
+        children: "Login"
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
       className: "nav-item",
